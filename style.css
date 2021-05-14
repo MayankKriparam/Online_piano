@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Song+Myung&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+@font-face {
+    font-family: 'Music';
+    src: url('LD\ Music.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+}
+
+html {
+    background: linear-gradient(180deg,rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)),url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.heading {
+    text-align: center;
+}
+
+h1 {
+    font-family: Poppins, sans-serif;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    letter-spacing: 5px;
+    font-size: 40px;
+    margin-top: 16px;
+    background: rgba(0, 0, 0, 0.712);
+    height: 100%;
+    width: fit-content;
+    border: 1.5px solid rgba(97, 97, 97, 0.884);
+    box-shadow: 1.5px 1.5px rgb(38, 118, 133);
+    border-radius: 5px;
+    display: inline-block;
+    padding: 16px;
+}
+
+button {
+    padding: 15px;
+    height: 200px;
+    width: 45px;
+    border-radius: 3px;
+    font-family: Song Myung;
+    font-weight: 600;
+    margin-right: 5px;
+    display: inline-block;
+    text-align: center;
+    font-size: 20px;
+}
+
+/* #black {
+    background: black;
+    color: white;
+    height: 180px;
+    border: 1px solid rgb(34, 34, 34);
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+}
+
+#white {
+    background: white;
+    margin-top: 178px;
+    border: 1.5px solid #aaa;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+} */
+
+.z {
+    background: white;
+    margin-top: 178px;
+    border: 1.5px solid #aaa;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+}
+
+.s {
+    background: black;
+    color: white;
+    height: 180px;
+    border: 1px solid rgb(34, 34, 34);
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+}
+
+.d {
+    background: black;
+    color: white;
+    height: 180px;
+    border: 1px solid rgb(34, 34, 34);
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+}
+
+.c {
+    background: white;
+    margin-top: 178px;
+    border: 1.5px solid #aaa;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+}
+
+.v {
+    background: white;
+    margin-top: 178px;
+    border: 1.5px solid #aaa;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+}
+
+.g {
+    background: black;
+    color: white;
+    height: 180px;
+    border: 1px solid rgb(34, 34, 34);
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+}
+
+.h {
+    background: black;
+    color: white;
+    height: 180px;
+    border: 1px solid rgb(34, 34, 34);
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+}
+
+.j {
+    background: black;
+    color: white;
+    height: 180px;
+    border: 1px solid rgb(34, 34, 34);
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+}
+
+.m {
+    background: white;
+    margin-top: 178px;
+    border: 1.5px solid #aaa;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+}
+
+.piano {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.animation {
+    background: transparent;
+    border: 1px solid rgb(38, 118, 133);
+}
