@@ -16,47 +16,47 @@ document.addEventListener("keypress", function(event) {
 function sound(key) {
     switch (key) {
         case "z":
-        var sound1 = new Audio('sounds/piano-c_sharp.mp3');
+        var sound1 = new Audio('sounds/Piano.ff.C6.mp3');
         sound1.play();
         break;
 
         case "s":
-        var sound2 = new Audio("sounds/piano-c.mp3");
+        var sound2 = new Audio("sounds/Piano.ff.Db6.mp3");
         sound2.play();
         break;
 
         case "d":
-        var sound3 = new Audio('sounds/piano-c.mp3');
+        var sound3 = new Audio('sounds/Piano.ff.Eb6.mp3');
         sound3.play();
         break;
 
         case "c":
-        var sound4 = new Audio('sounds/piano-c.mp3');
+        var sound4 = new Audio('sounds/Piano.ff.E6.mp3');
         sound4.play();
         break;
 
         case "v":
-        var sound5 = new Audio('sounds/piano-c.mp3');
+        var sound5 = new Audio('sounds/Piano.ff.F6.mp3');
         sound5.play();
         break;
 
         case "g":
-        var sound6 = new Audio('sounds/piano-c.mp3');
+        var sound6 = new Audio('sounds/Piano.ff.Gb6.mp3');
         sound6.play();
         break;
 
         case "h":
-        var sound7 = new Audio('sounds/piano-c.mp3');
+        var sound7 = new Audio('sounds/Piano.ff.Ab6.mp3');
         sound7.play();
         break;
 
         case "j":
-        var sound8 = new Audio('sounds/piano-c.mp3');
+        var sound8 = new Audio('sounds/Piano.ff.Bb6.mp3');
         sound8.play();
         break;
 
         case "m":
-        var sound9 = new Audio('sounds/piano-c.mp3');
+        var sound9 = new Audio('sounds/Piano.ff.B6.mp3');
         sound9.play();
         break;
 
@@ -70,5 +70,5 @@ activeButton.classList.add("animation");
 
 setTimeout(function() {
 	activeButton.classList.remove("animation");
-}, 100);
+}, 1000);
 }
