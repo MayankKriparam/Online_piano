@@ -70,5 +70,5 @@ activeButton.classList.add("animation");
 
 setTimeout(function() {
 	activeButton.classList.remove("animation");
-}, 1000);
+}, 100);
 }
